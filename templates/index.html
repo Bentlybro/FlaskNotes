@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FlaskNotes</title>
+    <style>
+        /* Add basic styling here */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>FlaskNotes</h1>
+        <div class="note-form">
+            <textarea id="note-content" placeholder="Enter your note here..."></textarea>
+            <button onclick="saveNote()">Save Note</button>
+        </div>
+        <div id="notes-list">
+            <!-- Notes will be dynamically inserted here -->
+        </div>
+    </div>
+    
+    <script>
+        // Basic JavaScript functions for API interaction
+        async function saveNote() {
+            // Implementation for saving notes
+        }
+
+        async function loadNotes() {
+            // Implementation for loading notes
+        }
+
+        async function deleteNote(noteId) {
+            // Implementation for deleting notes
+        }
+
+        // Load notes when page loads
+        document.addEventListener('DOMContentLoaded', loadNotes);
+    </script>
+</body>
+</html>
